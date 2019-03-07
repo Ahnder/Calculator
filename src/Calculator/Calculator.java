@@ -1,12 +1,24 @@
 package Calculator;
 
+import java.util.Scanner;
+
 public class Calculator {
 
 	public static void main(String[] args) {
-		System.out.println("더하기 : " + (3 + 4));
-		System.out.println("빼기 : " + (6 - 3));
-		System.out.println("곱하기  : " + (3 * 4));
-		System.out.println("나누기 : " + (8 + 4));
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("첫 번째 입력값 : ");
+		int first = scanner.nextInt();
+		System.out.println(first);
+		
+		System.out.print("두 번째 입력값 : ");
+		int second = scanner.nextInt();
+		System.out.println(second);
+		
+		System.out.println("더하기 : " + (first + second));
+		System.out.println("빼기 : " + (first - second));
+		System.out.println("곱하기  : " + (first * second));
+		System.out.println("나누기 : " + (first + second));
 
 	}
 
