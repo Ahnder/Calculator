@@ -3,10 +3,10 @@ package Calculator;
 public class Calculator {
 
 	public static void main(String[] args) {
-		System.out.println("´õÇÏ±â : " + (3 + 4));
-		System.out.println("•û±â : " + (6 - 3));
-		System.out.println("°öÇÏ±â : " + (3 * 4));
-		System.out.println("³ª´©±â : " + (8 + 4));
+		System.out.println("ë”í•˜ê¸° : " + (3 + 4));
+		System.out.println("ë¹¼ê¸° : " + (6 - 3));
+		System.out.println("ê³±í•˜ê¸°  : " + (3 * 4));
+		System.out.println("ë‚˜ëˆ„ê¸° : " + (8 + 4));
 
 	}
 
